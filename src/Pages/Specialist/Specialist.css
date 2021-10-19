@@ -1,0 +1,32 @@
+.specialist-header {
+    background-color: #37B3E4;
+    color: #fff;
+    padding: 60px 30px;
+}
+.credibly {
+    width: 60%;
+    margin: 0 auto;
+}
+.special-top {
+    margin: 50px 0;
+}
+.holistically {
+    width: 90%;
+}
+.special-pera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialist-contact {
+    background-color: aliceblue;
+}
+
+.feature-details h2{
+    color: black;
+}
+
+.feature-details p{
+    color: black;
+}
