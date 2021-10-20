@@ -77,9 +77,7 @@ const Login = () => {
                                 <input type="password" onBlur={handlePassword} name="pass" id="pass" placeholder='Please enter your password...' />
                                 <button type="submit">Login</button>
                                 <div>
-                                    {
-                                        error
-                                    }
+                                {error && <p>Email or password not matched <br /> {error}</p>}
                                 </div>
                                 <p className='already-have-ac-txt'>New Here? <Link to='/signup'>Sign up</Link> </p>
                             </form>
