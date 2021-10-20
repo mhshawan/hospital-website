@@ -1,12 +1,8 @@
-.specialist-header {
+.common-banner{
     background-color: #37B3E4;
-    color: #fff;
-    padding: 60px 30px;
+    padding: 120px 0px;
 }
-.credibly {
-    width: 60%;
-    margin: 0 auto;
-}
+
 .special-top {
     margin: 50px 0;
 }
@@ -23,10 +19,20 @@
     background-color: aliceblue;
 }
 
-.feature-details h2{
-    color: black;
+.main-features {
+    background-color: #162f62;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 13px -7px #7dd6f6;
+    margin-bottom: 25px;
 }
 
-.feature-details p{
-    color: black;
+.feature h3{
+    color: #fff;
+}
+
+.feature p{
+    color: #fff;
 }

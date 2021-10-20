@@ -5,15 +5,23 @@ import {
     faAddressBook,
     faVoicemail,
 } from "@fortawesome/free-solid-svg-icons";
-import { Button, Form } from "react-bootstrap";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import './Contact.css';
 
 // this variable will show contact page
 const Contact = () => {
     return (
         <div>
-            <div className="contact-head p-5 mb-5">
-                <h1 className="text-center">Contact Us</h1>
+            <div className="common-banner">
+                <Container>
+                    <Row>
+                        <Col md={12} sm={12} xs={12}>
+                            <div className="section-title">
+                                <h2>CONTACT</h2>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
 
             <div className="d-md-flex justify-content-around align-items-center mt-3">

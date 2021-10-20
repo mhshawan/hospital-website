@@ -12,10 +12,16 @@ const Specialist = () => {
     const doctorICon = <FontAwesomeIcon icon={faUserMd} />
     return (
         <div>
-            <div className="specialist-header">
-                <h4>Owner, Lead Optometrist</h4>
-                <h2>Angela Brawn</h2>
-                <p className="credibly">Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.</p>
+            <div className="common-banner">
+                <Container>
+                    <Row>
+                        <Col md={12} sm={12} xs={12}>
+                            <div className="section-title">
+                                <h2>OUR SPECIALIST</h2>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
             <Container className="special-top">
                 <Row>
@@ -38,48 +44,48 @@ const Specialist = () => {
             <Container className='my-5'>
                 <Row>
                     <Col lg={3} md={4} sm={6} xs={12}>
-                        <div>
+                        <div className="main-features">
                             <div className="feature-icon-1">
                                 {eye}
                             </div>
-                            <div className="feature-details p-5">
-                                <h2>Eye examination
-                                </h2>
-                                <p>Globally harness multimedia based collaboration and idea-sharing with backend product superior opportunities.
+                            <div className="feature pt-2 pb-4">
+                               <h3 className="pb-3">Eye examination
+                                </h3>
+                                <p>Globally harness multimedia based collaboration with backend product superior opportunities.
 
                                 </p>
                             </div>
                         </div>
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={12}>
-                        <div>
+                        <div className="main-features">
                             <div className="feature-icon-2">
                                 {diagnosICon}
                             </div>
-                            <div className="feature-details p-5">
-                                <h2>Diagnostics Services</h2>
+                            <div className="feature pt-2 pb-4">
+                                <h3 className="pb-3">Diagnostics Services</h3>
                                 <p>All kind of diagnostics are here for you, we are open 24/7 you can always get our help and stay safe.</p>
                             </div>
                         </div>
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={12}>
-                        <div>
+                        <div className="main-features">
                             <div className="feature-icon-1">
                                 {labICon}
                             </div>
-                            <div className="feature-details p-5">
-                                <h2>Hi-technology Labs</h2>
+                            <div className="feature pt-2 pb-4">
+                                <h3 className="pb-3">Hi-technology Labs</h3>
                                 <p>Most expensive hi-tech labs are created here for safety and trush of our patients and relief also.</p>
                             </div>
                         </div>
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={12}>
-                        <div>
+                        <div className="main-features">
                             <div className="feature-icon-2">
                                 {doctorICon}
                             </div>
-                            <div className="feature-details p-5">
-                                <h2>Specialized Doctors</h2>
+                            <div className="feature pt-2 pb-4">
+                                <h3 className="pb-3">Specialized Doctors</h3>
                                 <p>Most experienced specialized doctors are here for you they are very much dedicated to all patients.</p>
                             </div>
                         </div>
