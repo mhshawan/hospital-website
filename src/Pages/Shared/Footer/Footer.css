@@ -3,9 +3,9 @@ footer ul, footer ul li{
     padding: 0;
 }
 
-footer.foot{
+div.foot{
     
-    background-color: #37B3E4;
+    background-color:#162F62;
     padding: 80px 0px;
     color: #FFFFFF;
 }
@@ -35,6 +35,11 @@ footer.foot{
 
 .foot-detail-4 li{
     margin-bottom: 15px;
+}
+
+div.footer-credit{
+    background-color: #37B3E4;
+    color: #fff;
 }
 
 

@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faPhone,
     faAddressBook,
-    faVoicemail,
+    faMailBulk,
+    faClock
 } from "@fortawesome/free-solid-svg-icons";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import './Contact.css';
@@ -23,48 +24,52 @@ const Contact = () => {
                     </Row>
                 </Container>
             </div>
-
-            <div className="d-md-flex justify-content-around align-items-center mt-3">
-                <div className="d-flex align-items-center justify-content-center">
-                    <FontAwesomeIcon icon={faPhone} className="fs-1 me-2" />
-                    <div className="ms-2">
-                        <h3>Phone</h3>
-                        <p>Phone: +8801688496554</p>
-                    </div>
-                </div>
-                <div className="d-flex align-items-center justify-content-center">
-                    <FontAwesomeIcon icon={faAddressBook} className="fs-1 me-2" />
-                    <div className="ms-2">
-                        <h3>Adress</h3>
-                        <p>Dhaka, Bangladesh</p>
-                    </div>
-                </div>
-                <div className="d-flex align-items-center justify-content-center">
-                    <FontAwesomeIcon icon={faVoicemail} className="fs-1 me-2" />
-                    <div className="ms-2">
-                        <h3>Email</h3>
-                        <p>Email:mhshawan7@gmail.com</p>
-                    </div>
+            <div className="query">
+                <div className="mt-4 mb-5 contact-form">
+                    <h1 className="text-dark text-center">Query</h1>
+                    <Form className="w-50 mx-auto mb-2 pt-3">
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Label>Your Name</Form.Label>
+                            <Form.Control type="email" placeholder="Type Your Name" />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Label>Email address</Form.Label>
+                            <Form.Control type="email" placeholder="name@example.com" />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>Your Message</Form.Label>
+                            <Form.Control as="textarea" rows={3} />
+                        </Form.Group>
+                        <Button size="lg" className="text-center contact-btn"> Submit </Button>
+                    </Form>
                 </div>
             </div>
 
-            <div className="mt-4">
-                <h1 className="contact-title text-center">Contact Me</h1>
-                <Form className="w-75 mx-auto mb-2">
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Your Name</Form.Label>
-                        <Form.Control type="email" placeholder="Type Your Name" />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="name@example.com" />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Your Message</Form.Label>
-                        <Form.Control as="textarea" rows={3} />
-                    </Form.Group>
-                    <Button className="contact-btn"> Submit </Button>
-                </Form>
+            <div className="d-lg-flex justify-content-around mt-5 text-light p-5 contact-footer">
+                <div className="d-flex align-items-center">
+                    <FontAwesomeIcon icon={faPhone} className="fs-1 me-2" />
+                    <div>
+                        <h3>+8801688496554</h3>
+                    </div>
+                </div>
+                <div className="d-flex align-items-center">
+                    <FontAwesomeIcon icon={faAddressBook} className="fs-1 me-2" />
+                    <div>
+                        <h3>Shadhinata Sarani Road</h3>
+                    </div>
+                </div>
+                <div className="d-flex align-items-center">
+                    <FontAwesomeIcon icon={faMailBulk} className="fs-1 me-2" />
+                    <div>
+                        <h3>contact.mhshawan@gmail.com</h3>
+                    </div>
+                </div>
+                <div className="d-flex align-items-center">
+                    <FontAwesomeIcon icon={faClock} className="fs-1 me-2" />
+                    <div>
+                        <h3>24/7 service available</h3>
+                    </div>
+                </div>
             </div>
         </div>
     );
