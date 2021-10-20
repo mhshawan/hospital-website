@@ -49,7 +49,7 @@ const Specialist = () => {
                                 {eye}
                             </div>
                             <div className="feature pt-2 pb-4">
-                               <h3 className="pb-3">Eye examination
+                                <h3 className="pb-3">Eye examination
                                 </h3>
                                 <p>Globally harness multimedia based collaboration with backend product superior opportunities.
 
@@ -98,26 +98,26 @@ const Specialist = () => {
                     <Row>
                         <Col md={6} sm={6} xs={12}>
                             <div>
-                                <h2>Contact Angela</h2>
-                                <p>Come and visit our quarters or simply send us an email anytime you want. We are open to all suggestions from our audience.</p>
+                                <h2>Contact US</h2>
+                                <p>Medina Health Care acquired permission to start a Nursing College in 2011. Since 2012 United College of Nursing has been functioning with students studying in 4 year Basic BSc course in Nursing.</p>
                             </div>
                         </Col>
                         <Col md={6} sm={6} xs={12}>
                             <Row>
                                 <Col md={3} sm={6} xs={12}>
-                                    <p><small>Address</small></p>
+                                    <h2><small>Address</small></h2>
                                     <p><small>27th Avenue,
                                         W2 3XE, New York</small></p>
                                 </Col>
                                 <Col md={3} sm={6} xs={12}>
-                                    <p><small>Call us
-                                    </small></p>
+                                    <h2><small>Call us
+                                    </small></h2>
                                     <p><small>0-800-777-2331
                                         0-800-772-3466</small></p>
                                 </Col>
                                 <Col md={3} sm={6} xs={12}>
-                                    <p><small>Write us
-                                    </small></p>
+                                    <h2><small>Write us
+                                    </small></h2>
                                     <p><small>office@medicare.com
                                         book@medicare.com</small></p>
                                 </Col>
