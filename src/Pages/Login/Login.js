@@ -24,12 +24,15 @@ const Login = () => {
     } = useAuth();
 
     const location = useLocation();
-    const hostory = useHistory();
+    const history = useHistory();
     const redirectURL = location.state?.from || '/home';
     const handleGoogleSignIn = () => {
         signInByGoogle()
             .then(result => {
-                hostory.push(redirectURL);
+                history.push(redirectURL);
+            })
+            .catch(error => {
+                setError(error.message);
             })
     }
 
@@ -38,7 +41,7 @@ const Login = () => {
         signInWithEmail()
             .then((result) => {
                 setUser(result.user);
-                hostory.push(redirectURL);
+                history.push(redirectURL);
             })
             .catch(error => {
                 setError(error.message);
@@ -49,7 +52,10 @@ const Login = () => {
         signInByGithub()
             .then((result) => {
                 setUser(result.user);
-                hostory.push(redirectURL);
+                history.push(redirectURL);
+            })
+            .catch(error => {
+                setError(error.message);
             })
     }
 
