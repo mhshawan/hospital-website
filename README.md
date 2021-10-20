@@ -1,5 +1,5 @@
-# Educational Website project
-- Project Name: HealthCare website
+# Health Website project
+- Project Name: Medina website
 - Project Description: This project is for a health care website and nursing purpose, where student can know about the details which are offered from the academic center.
 - Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
 
