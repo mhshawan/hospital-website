@@ -3,9 +3,7 @@
 - Project Description: This project is for a health care website and nursing purpose, where student can know about the details which are offered from the academic center.
 - Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
 
-- Live link of the project(https://medina-bb9ba.web.app/)
-
-- code link here(https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-mhshawan)
+- Live link of the project(https://medina-website.netlify.app/)
 
 ## Available Scripts
 
