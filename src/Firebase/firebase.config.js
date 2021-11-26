@@ -1,12 +1,11 @@
 // Web App's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDUp4tNt9i5kFO9V2Gp0JYj8zmw4MvIC9U",
-    authDomain: "medina-bb9ba.firebaseapp.com",
-    projectId: "medina-bb9ba",
-    storageBucket: "medina-bb9ba.appspot.com",
-    messagingSenderId: "625823261735",
-    appId: "1:625823261735:web:e6ad6c0fc0827890039a02",
-    measurementId: "G-X8ZFQJ2SW4"
-  };
+  apiKey: "AIzaSyBEZvE9pTXdMEKxdfm2l6ysC9k5YU-STgg",
+  authDomain: "medical-website-e8204.firebaseapp.com",
+  projectId: "medical-website-e8204",
+  storageBucket: "medical-website-e8204.appspot.com",
+  messagingSenderId: "113610232994",
+  appId: "1:113610232994:web:754d13f4a190cdc226b3fb"
+};
 
 export default firebaseConfig;
